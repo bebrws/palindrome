@@ -7,11 +7,11 @@ function testCase(description, inputString, expectedResult) {
     const result = isPalindrome(inputString);
     let resultString;
     if (result === expectedResult) {
-        resultString = "✅ Passed";
+        resultString = `✅ Passed`;
     } else {
-        resultString = "❌ Failed"
+        resultString = `❌ Failed`;
     }
-    console.log(`${resultString} ${description}: '${inputString}'`)
+    console.log(`${resultString} - Test Description: ${description}. Test Input String: '${inputString}'`)
 }
 
 testCase("One letter", "a", true);

@@ -10,12 +10,12 @@ To run the test, you can use the following command:
 ```
     npm run test
 ```
-After running this command the desired output would be having a full list of:
+After running this command the desired output would be a number of lines, all containing the following:
 ```
     ✅ Passed
 ```
-The lines:
+On the other hand, lines containing:
 ```
     ❌ Failed
 ```
-would be displayed if the test failed.
+will be displayed for tests that failed.
